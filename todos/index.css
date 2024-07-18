@@ -1,0 +1,61 @@
+.nav-item{
+  display: block;
+  padding: 30px 15px;
+  margin-left: 5px;
+}
+
+.nav-item:hover{
+  background-color: rgb(201, 178, 178);
+}
+
+.nav-item.active{
+  background-color: rgb(201, 178, 178);
+}
+
+.footer{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.col.colfooter{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.fa{
+  font-size: 40px;
+}
+
+.fa-square-facebook:hover{
+  color: mediumblue;
+}
+
+.fa-google-plus:hover{
+  color: maroon;
+}
+
+.fa-square-twitter:hover{
+  color: lightskyblue;
+}
+
+.fa-square-youtube:hover{
+  color: red;
+}
+
+.fa-linkedin:hover{
+  color: blue;
+}
+
+.copyright{
+  color: black;
+  font-size: 15px;
+}
+.copyright-link{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.copyright-link:hover{
+  color: #9a6060;
+  font-size: 15px;
+}

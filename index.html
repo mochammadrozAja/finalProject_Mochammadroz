@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: lightgray;">
+
+  <div class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <div class="wrap">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logoOLShop.png" alt="Logo" width="100%" class="d-inline-block align-text-top">
+          </a>
+        </div>
+        <div class="container">
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item text-nowrap active">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item text-nowrap">
+              <a class="nav-link" href="./portofolio/index.html">Portofolio</a>
+            </li>
+            <li class="nav-item text-nowrap">
+              <a class="nav-link" href="./blog/index.html">Blog</a>
+            </li>
+            <li class="nav-item text-nowrap">
+              <a class="nav-link" href="./aboutus/index.html">About Us</a>
+            </li>
+            <li class="nav-item text-nowrap">
+              <a class="nav-link" href="./contact/index.html">Contact</a>
+            </li>
+            <li class="nav-item text-nowrap">
+              <a class="nav-link" href="./todos/index.html">Todos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ---------------------------------------------- -->
+  <div class="body-carousel">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="./images/home-ring.png" class="d-block w-10 mx-auto" style="height: 500px;width: 500px;" alt="1">
+              </div>
+              <div class="col">
+                <H1 class="carouseltext text-center">Rings</H1>
+                <H2 class="carouseltext text-center">Elegant collection of rings</H2>
+                <div class="carouseltext">
+                  <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <H1 class="carouseltext text-center">Bracelets</H1>
+                <H2 class="carouseltext text-center">Elegant collection of bracelet</H2>
+                <div class="carouseltext">
+                  <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Order Now
+                  </button>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/home-bracelet.png" class="d-block w-10 mx-auto" style="height: 500px;width: 500px;" alt="1">
+              </div>
+            </div>
+          </div>        </div>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="./images/home-earings.png" class="d-block w-10 mx-auto" style="height: 500px;width: 500px;" alt="1">
+              </div>
+              <div class="col">
+                <H1 class="carouseltext text-center">Earings</H1>
+                <H2 class="carouseltext text-center">Elegant collection of earings</H2>
+                <div class="carouseltext">
+                  <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>        </div>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <H1 class="carouseltext text-center">Necklace</H1>
+                <H2 class="carouseltext text-center">Elegant collection of necklace</H2>
+                <div class="carouseltext">
+                  <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Order Now
+                  </button>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/home-necklace.png" class="d-block w-10 mx-auto" style="height: 500px;width: 500px;" alt="1">
+              </div>
+            </div>
+          </div>        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="body-mid mx-auto p-4">
+    <h1 style="text-align: center;">WE ARE #1 Jewellery Online Shop.</h1>
+    <h2 style="text-align: center; margin-bottom: 50px;">Professional Specialize in Jewellery and Diamond</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/home-card1.png" class="card-img-top active" alt="card1">
+            <div class="card-body">
+              <h5 class="card-title">Design</h5>
+              <p class="card-text">You can request design as you want.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/home-card2.png" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Customization</h5>
+              <p class="card-text">You can customize by yourself.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/home-card3.png" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Mixture</h5>
+              <p class="card-text">Flexible of gold alloy and diamond.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/home-card4.png" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Resize</h5>
+              <p class="card-text">Free resize after sales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col colfooter">
+            <div>
+              <h3>About Us</h3>
+              <p>
+                WE ARE #1 Jewellery Online Shop.
+                <br>
+                Customer is our Kings.
+              </p>
+            </div>
+            <div>
+              <h3>Photo Stream</h3>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img src="./images/footer1.png" class="img-fluid" alt="ftr1">
+                    <img src="./images/footer2.png" class="img-fluid" alt="ftr2">
+                  </div>
+                  <div class="col">
+                    <img src="./images/footer3.png" class="img-fluid" alt="ftr3">
+                    <img src="./images/footer4.png" class="img-fluid" alt="ftr4">
+                  </div>
+                  <div class="col">
+                    <img src="./images/footer5.png" class="img-fluid" alt="ftr5">
+                    <img src="./images/footer6.png" class="img-fluid" alt="ftr6">
+                  </div>
+                  <div class="col">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col colfooter">
+            <h3>Social Connecting</h3>
+            <i class="fa fa-brands fa-square-facebook"></i>&nbsp;
+            <i class="fa fa-brands fa-google-plus"></i>&nbsp;
+            <i class="fa fa-brands fa-square-twitter"></i>&nbsp;
+            <i class="fa fa-brands fa-square-youtube"></i>&nbsp;
+            <i class="fa fa-brands fa-linkedin"></i>
+          </div>
+          <div class="col colfooter">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fa fa-sharp fa-solid fa-location-dot"></i>
+              <br>
+              Telkom Landmark Tower, Surabaya
+            </p>
+            <p>
+              <i class="fa fa-brands fa-square-whatsapp"></i>
+              <br>
+              Phone: +62 811 000 0000
+            </p>
+            <p>
+              <i class="fa fa-solid fa-square-envelope"></i>
+              <br>
+              Email: helpdesk@jd.com
+            </p>
+            <h3>Follow Us</h3>
+            <p>
+              Come and set your style.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: white;">
+      <div class="container" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <div class="text-nowrap">
+                <p class="copyright">© 2020
+                  <a class="copyright-link link-underline-light" href="#">
+                  HACKTIV8 WORKSHOP PROGRAM MOCHAMMAD ARDIAN ROZALI
+                  </a>
+                </p>
+            </div>
+            <div class="container">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item-footer">
+                  <a class="nav-link text-nowrap" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item-footer">
+                  <a class="nav-link text-nowrap" href="./portofolio/index.html">Portofolio</a>
+                </li>
+                <li class="nav-item-footer">
+                  <a class="nav-link text-nowrap" href="./blog/">Blog</a>
+                </li>
+                <li class="nav-item-footer">
+                  <a class="nav-link text-nowrap" href="./aboutus/index.html">About Us</a>
+                </li>
+                <li class="nav-item-footer">
+                  <a class="nav-link text-nowrap" href="./contact/index.html">Contact</a>
+                </li>
+                <li class="nav-item-footer">
+                  <a class="nav-link text-nowrap" href="./todos/index.html">Todos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Detail Order</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr class="table-dark">
+                <th scope="col">Spec</th>
+                <th scope="col">Gold</th>
+                <th scope="col">Gold + Diamond</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Grams</th>
+                <td>5</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th scope="row">Waranty</th>
+                <td>10 Years</td>
+                <td>10 Years</td>
+              </tr>
+              <tr>
+                <th scope="row">Price</th>
+                <td>Rp. 10.000.000,00</td>
+                <td>Rp. 15.000.000,00</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">add to cart</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Add to cart</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
